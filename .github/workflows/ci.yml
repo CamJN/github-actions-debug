@@ -17,6 +17,7 @@ jobs:
       uses: ./.github/actions/ssh-access
       with:
         limit-access-to-actor: true
+        limit-access-to-users: CamJN
     - name: Wait for ssh connection
       uses: ./.github/actions/ssh-access
       with:
